@@ -338,7 +338,7 @@ body{
   }
  
 }
-@media (max-width: 385px){
+@media (max-width: 376px){
   .side-info {
     position: absolute;
     width: 100%;
@@ -374,5 +374,6 @@ body{
   }
  
 }
+
 
 
