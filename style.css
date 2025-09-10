@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #a99b9ba5;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+}
+::before::after {
+  box-sizing: border-box;
+}
+.side-info {
+  width: 25%;
+  position: fixed;
+  float: left;
+  background-color: rgb(54, 53, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.side-info hr {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: rgba(246, 225, 225, 0.918);
+}
+.side-info .profile {
+  width: 100%;
+  height: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.side-info .profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -5px;
+  border: 5px solid white;
+
+}
+.contacts h2{
+  margin-left: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.contact-info {
+  margin-top: 5%;
+  margin-left: 8%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10px;
+}
+.contact-info h4{
+  margin: 3%;
+  
+}
+.contact-info i{
+  margin-right: 10px;
+  color: #edeaea;
+}
+.contact-info a{
+  color: rgb(252, 251, 251);
+}
+.contact-info a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.education h2{
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.education h4{
+  margin-left: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.education .education-info {
+  margin-left: 10%;
+  margin-top:5% ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 12px;
+}
+.school-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.school-year {
+  margin-left: 7%;
+}
+.skills h2{
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.skills .skill-list {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom:70% ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile-container{
+  position: absolute;
+  left: 25%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+.profile-name h1{
+  font-family: 'Parisienne', cursive;
+  font-size: 50px;
+  margin-left: 10%;
+}
+.profile-name .name{
+  font-weight: bold;
+  color: #a02626;
+  margin-right: 2%;
+}
+.profile-name .student-course{
+  margin-left: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 69%;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+.profile-name .dash-line{
+  width: 12%;
+  height: 1px;
+  background-color: #a02626;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+}
+/* This is About Style */
+.profile-about{
+   margin-top: 5%;
+}
+.about-header h2{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2%;
+}
+.about-cont li{
+  list-style: none;
+  margin: 5px;
+}
+.about-cont ul{
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: #767575;
+  margin-top: 10px;
+  box-shadow: #cac7c7 10px 10px 10px 1px;
+}
+
+/* This is Profile Style */
+.profile{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.profile .profile-name {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2%;
+}
+.profile p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+.working {
+  background-color: #767575;
+  border-radius: 10px;
+  border-color: rgba(58, 57, 60, 0.872);
+  height: 50%;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+  padding: 20px;
+  box-shadow: #cac7c7 10px 10px 10px 1px;
+}
+.work-experience h2{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+.work-info{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.work-info .fa{
+  color: #a02626;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.work-company ,.work-position, .work-description{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.work-experience .circle-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #a02626;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* Seminar Style*/
+.seminar-cont h2 {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+.seminar-board li{
+  list-style: none;
+  margin-left: 10px;
+}
+.seminar-board i {
+  margin-right: 5px;
+  font-size: 15px;
+  color:#a02626;
+}
+.seminar-board {
+  background-color: #767575;
+  border-radius: 10px;
+  border-color: rgba(58, 57, 60, 0.872);
+  height: 50%;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: #cac7c7 10px 10px 10px 1px;
+}
+
+/* Reference Style*/
+.reference h2{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+.reference .reference-info {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile-container hr {
+  width: 100%;
+  margin-bottom: 2%;
+  border: none;
+  height: 1px;
+  background-color: #a02626;
+}
+@media (max-width: 1024px) {
+  .side-info {
+    width: 30%;
+    position: fixed;
+  }
+  .profile-container {
+    left: 30%;
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .side-info {
+    height: auto;
+    width: 30vw;
+    position: fixed;
+    font-size: 20px;
+  }
+  .profile-container {
+    left: 30%;
+    width: 100vw;
+  }
+  .working {
+    background-color: #767575;
+    border-radius: 10px;
+    border-color: rgba(58, 57, 60, 0.872);
+    height: 50%;
+    width: 55%;
+    left: 30%;
+    top: 20%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+} 
+@media (max-width: 425px){
+  .side-info {
+    position: absolute;
+    width: 100%;
+    top: 350%;
+    left: 0;
+  }
+  .profile-container {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    background-color: whitesmoke;
+    left: 0;
+  }
+ 
+}
