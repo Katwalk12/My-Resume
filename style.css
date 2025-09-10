@@ -319,3 +319,57 @@ body{
   }
  
 }
+@media (max-width: 425px){
+  .side-info {
+    position: absolute;
+    width: 100%;
+    top: 337%;
+    left: 0;
+  }
+  .profile-container {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    background-color: whitesmoke;
+    left: 0;
+  }
+ 
+}
+@media (max-width: 385px - 325px){
+  .side-info {
+    position: absolute;
+    width: 100%;
+    top: 337%;
+    left: 0;
+  }
+  .profile-container {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    background-color: whitesmoke;
+    left: 0;
+  }
+ 
+}
+@media (max-width: 320px){
+  .side-info {
+    position: absolute;
+    width: 100%;
+    top: 362%;
+    left: 0;
+  }
+  .profile-container {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    background-color: whitesmoke;
+    left: 0;
+  }
+ 
+}
